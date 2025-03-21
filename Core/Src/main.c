@@ -183,10 +183,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      if (HAL_UART_GetError(&huart1) == HAL_UART_ERROR_NONE) {
-          send_status_text("STM32 is sending MAVLink STATUSTEXT!");
-      }
-      HAL_Delay(5000);
+    
   }
 
   /* USER CODE END 3 */
